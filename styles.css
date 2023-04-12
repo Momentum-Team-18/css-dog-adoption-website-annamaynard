@@ -1,6 +1,42 @@
-body {
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap");
+
+h1 {
+  background-color: #004175;
+  font-family: Oswald, Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: aliceblue;
+  padding: 50;
 }
 
-header {
-background-color: blue; }
+.header-links {
+  color: white;
+  font-family: "Open Sans";
+  font-size: small;
+}
+
+main {
+  margin: 1px 10px;
+  padding: 10px 50px;
+  font-family: "Open Sans";
+  font-size: smaller;
+  /* border: 10 50 50 10; */
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-size: medium;
+  text-align: left;
+  margin: 40;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: small;
+  text-align: left;
+}
+
+.contact-text {
+  /*Happy Valley Shelter is located at 
+      Hours*/
+  font-size: large;
+}
