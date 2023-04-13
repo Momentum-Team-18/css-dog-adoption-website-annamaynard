@@ -1,32 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap");
 
-h1 {
+
+.header{
   background-color: #004175;
   font-family: Oswald, Georgia, "Times New Roman", Times, serif;
+  font-size:  20px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  display: row;
+  justify-content:space-between
+}
+
+.header-links {
+  color: white;
+  background-color:#004175
+  font-family:'Open Sans';
+  font-size: small;
+  align-items:right;
+}
+//*different headers for each page*//
+
+main {
+  margin: 1px 10px;
+  padding: 10px 50px;
+  family: "Open Sans";
+  font-size: x-small;
+  background-color: antiquewhite;
+  /* border: 10 50 50 10; */
+  
+}
+
+h1 {
+  background-color: wheat;
+  font-family: 'Open Sans';
   font-weight: 600;
   color: aliceblue;
   padding: 50;
 }
 
-.header-links {
-  color: white;
-  font-family: "Open Sans";
-  font-size: small;
-}
-
-main {
-  margin: 1px 10px;
-  padding: 10px 50px;
-  font-family: "Open Sans";
-  font-size: smaller;
-  /* border: 10 50 50 10; */
-}
-
 h2 {
   font-family: "Open Sans";
-  font-size: medium;
+  font-size: small;
   text-align: left;
   margin: 40;
+  background-color: pink;
 }
 
 h3 {
@@ -35,8 +54,56 @@ h3 {
   text-align: left;
 }
 
-.contact-text {
-  /*Happy Valley Shelter is located at 
-      Hours*/
-  font-size: large;
+.dog-list {
+  border: black;
+flex-wrap: wrap;
+ justify-content: center;  
+ flex-direction: column;
+  background-color: purple;
+  border: black 10px;
 }
+
+
+.dog-card {
+  display: flex;
+  flex: wrap;
+  background-color: aqua;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 2%;
+  width: 300px;
+  border-color: #ebe8e5;
+  border-radius: 1%;
+}
+
+.name{
+  font-family: Oswald;
+  font-size: small;
+  padding: 0px;
+  margin: 1px 5px 10px 2.5px; 
+  display: flex;}
+
+  .bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: yellow;
+  }
+  
+  .traits {
+    font-family: 'open sans';
+    font-size: xx-small;
+    background-color: #89DEEF;
+    padding: 5px; 
+    margin: 3px;
+    place-content: center;
+  }
+  
+  
+  
+  .contact-text {
+    font-size: large;
+    /*Happy Valley Shelter is located at 
+        Hours*/
+  }
