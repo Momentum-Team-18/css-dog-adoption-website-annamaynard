@@ -9,7 +9,6 @@
   padding: 10px;
   margin: 0;
   display: flex;
-  display: row;
   justify-content:space-between
 }
 
@@ -18,25 +17,23 @@
   background-color:#004175
   font-family:'Open Sans';
   font-size: small;
-  align-items:right;
+  align-items:flex-end;
 }
-//*different headers for each page*//
 
 main {
   margin: 1px 10px;
   padding: 10px 50px;
   family: "Open Sans";
   font-size: x-small;
-  background-color: antiquewhite;
+  background-color: white;
   /* border: 10 50 50 10; */
   
 }
 
 h1 {
-  background-color: wheat;
   font-family: 'Open Sans';
   font-weight: 600;
-  color: aliceblue;
+  color: black;
   padding: 50;
 }
 
@@ -45,7 +42,6 @@ h2 {
   font-size: small;
   text-align: left;
   margin: 40;
-  background-color: pink;
 }
 
 h3 {
@@ -56,10 +52,10 @@ h3 {
 
 .dog-list {
   border: black;
-flex-wrap: wrap;
- justify-content: center;  
- flex-direction: column;
-  background-color: purple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  background-color: white;
   border: black 10px;
 }
 
@@ -67,7 +63,7 @@ flex-wrap: wrap;
 .dog-card {
   display: flex;
   flex: wrap;
-  background-color: aqua;
+  background-color: white;
   padding: 10px;
   margin: 5px;
   border: 1px solid;
@@ -84,17 +80,18 @@ flex-wrap: wrap;
   margin: 1px 5px 10px 2.5px; 
   display: flex;}
 
-  .bubbles {
+ * .bubbles {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    background-color: yellow;
+    background-color: white;
   }
   
   .traits {
     font-family: 'open sans';
     font-size: xx-small;
     background-color: #89DEEF;
+    border-radius: 5px;
     padding: 5px; 
     margin: 3px;
     place-content: center;
