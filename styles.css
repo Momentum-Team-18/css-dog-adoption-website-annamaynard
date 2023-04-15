@@ -37,8 +37,8 @@ color: white;
 
 
 main {
-  margin: 1px 10px;
-  padding: 10px 50px;
+  margin: 1px 50px;
+  padding: 10px 100px;
   family: "Open Sans";
   font-size: x-small;
   background-color: white;
@@ -123,54 +123,43 @@ h3 {
 
   /*footer*/
 
-  footer{
-  background-color: #a6a9f0;
+  footer {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-family: oswald;
 
-}
-
-.contaier{
-  flex-direction: row;
-  background-color: #a6a9f0;
-  display: grid;
-  place-items:center;
-  display: inline-block;
- 
-
-}
-
-.image-container{
-
-  display:grid;
-  width: 100%;
-  grid-template-columns: repeat {auto-fit, minmax(10ch, 1 fr));
-  background-color: yellow;
-  align-items: center;
-  opacity:0.4;
-}
-
-/*
-.container{
-
-  display: inline-block;
-  position: relative;
-  flex-direction: row;
-  background-color: #A6A9Fk0;
-  width: 30%;
-  padding-top: 0%;
-  color: white;
-  text-decoration: none;
-  /*why is the color not white and underline not going away?*/
+  }
   
-}
-.image img:hover {
-  height:100%;
-  width:100%;
-  opacity: 100;
-}
-
-
-.text{
-  font-family: oswald;
-  font-size: 30px;
-  background-color: hotpink;
-}
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: flex-start;
+    background-color: aliceblue;
+   
+  }
+  
+  .image-box {
+    position: relative;
+    margin: 0px;
+  }
+  
+  .image {
+    display: block;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight:lighter;
+    text-align: center;
+   font-family:  Oswald, Georgia, "Times New Roman", Times, serif;;
+   text-decoration: none;
+   color: white;
+  }
