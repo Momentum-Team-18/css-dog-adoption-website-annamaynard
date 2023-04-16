@@ -121,6 +121,20 @@ h3 {
         Hours*/
   }
 
+
+/* Adoption Page */
+
+form{ 
+  font-family: 'open sans';
+  padding: 30px;
+  border: black; 
+}
+
+
+
+
+
+
   /*footer*/
 
   footer {
@@ -141,7 +155,7 @@ h3 {
   }
   
   .image-box {
-    position: relative;
+    position:relative;
     margin: 0px;
   }
   
